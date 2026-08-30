@@ -11,7 +11,7 @@ https://youtu.be/eMlx5fFNoYc?si=tdTtkdiyvOygawi0
 <details>
 <summary> AI Used for Help </summary> 
 Claude (Only Bug testing and resource gathering)
-<details>
+</details>
 
 ## Strategy Used
 
