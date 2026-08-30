@@ -27,7 +27,7 @@ Then I use the **scaled dot product attention**
         \text{Attention}(Q, K, V) = \text{Softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
     $$
 
-    ''' python 
+    '''python 
     def attention(self,M):
 
         self.M = M if torch.is_tensor(M) else torch.tensor(M, dtype= torch.float32)

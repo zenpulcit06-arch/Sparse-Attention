@@ -5,10 +5,11 @@ This project aims to build Sparse-Attention from scratch While learning it and p
 ## Layout
 ### (At current stage)
 
-''' Sparse-Attention
-|
-|- Dense_Ateention.py (Scaled Dot Product)
-'''
+```text
+Sparse-Attention/
+└── Dense_Attention.py (Scaled Dot Product)
+```
+
 
 ## Requirments
 
