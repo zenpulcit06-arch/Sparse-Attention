@@ -13,15 +13,30 @@ Sparse-Attention/
 
 ## Requirments
 
-'''bash
+```bash
     pip install torch numpy matplotlib pytest
-'''
+```
 
 ## How to run 
 ### (At this point)
-'''bash
- python Dense__ateention.py
-'''
+```bash
+python Dense__ateention.py
+```
+
+
+## Bug Encounters
+### Checkpoint 1
+<details>
+<summary> <b> Bug 1: </b> Invalid data type </summary>
+    durin tensor converion some are onverting to int while other are cinverting to float
+    <b> Fix </b>
+    ```python 
+        dtype = torch.float32 
+    ``` 
+</details>
 
 ## Checkpoint completed
-> **Checkpoint1:** Scaled Dot Product (Dense_ateention.py)
+<details>
+<summary> <b> Checkpoint1: </b> </summary> 
+    Scaled Dot Product (Dense_ateention.py)
+</details>
