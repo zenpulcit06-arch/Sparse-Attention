@@ -28,6 +28,7 @@ python Dense__ateention.py
 ### Checkpoint 1
 <details>
 <summary> <b> Bug 1: </b> Invalid data type </summary>
+
     durin tensor converion some are onverting to int while other are cinverting to float
     <b> Fix </b>
     ```python 
@@ -37,6 +38,7 @@ python Dense__ateention.py
 
 ## Checkpoint completed
 <details>
-<summary> <b> Checkpoint1: </b> </summary> 
+<summary> <b> Checkpoint1: </b> </summary>
+ 
     Scaled Dot Product (Dense_ateention.py)
 </details>

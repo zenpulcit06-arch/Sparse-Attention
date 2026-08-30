@@ -5,11 +5,13 @@
 ### Checkpoint 1
 <details>
 <Summary>3Blue1Brown </summary> 
+
 https://youtu.be/eMlx5fFNoYc?si=tdTtkdiyvOygawi0
 </details>
 
 <details>
 <summary> AI Used for Help </summary> 
+
 Claude (Only Bug testing and resource gathering)
 </details>
 
@@ -29,9 +31,7 @@ First intialise a DenseAttention class With **Querry (Q), Key (K) and value (V)*
 
 
 Then I use the **scaled dot product attention** 
-    $$
-        \text{Attention}(Q, K, V) = \text{Softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
-    $$
+\[\text{Attention}(Q, K, V) = \text{Softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V\]
 
     ```python 
     def attention(self,M):
@@ -47,22 +47,22 @@ Then I use the **scaled dot product attention**
     ```
 
 #### Test 
-    Tested along hand work of 2x2 Matrix
+Tested along hand work of 2x2 Matrix
 
-    ```Python
-        if __name__ == "__main__":
+```python
+if __name__ == "__main__":
 
-        Q_test = [[1,0],[0,1]]
-        K_test = [[1,0],[0,1]]
-        V_test = [[10,20],[30,40]]
+    Q_test = [[1,0],[0,1]]
+    K_test = [[1,0],[0,1]]
+    V_test = [[10,20],[30,40]]
 
-        Dense = DenseAttention(Q_test,K_test,V_test)
-        M_test = [[0, float('-inf')], [0, 0]]
+    Dense = DenseAttention(Q_test,K_test,V_test)
+    M_test = [[0, float('-inf')], [0, 0]]
 
-        print(Dense.attention(M_test))
-    ```
+    print(Dense.attention(M_test))
+```
 
-    ```Result 
-        tensor([[10.0000, 20.0000],
-        [23.3952, 33.3952]])
-    ```
+```text
+tensor([[10.0000, 20.0000],
+[23.3952, 33.3952]])
+```
