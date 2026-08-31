@@ -7,7 +7,8 @@ This project aims to build Sparse-Attention from scratch While learning it and p
 
 ```text
 Sparse-Attention/
-└── Dense_Attention.py (Scaled Dot Product)
+└── Dense_Ateention.py (Scaled Dot Product)
+|__ BigBird.py (Sparse pattern)
 ```
 
 
@@ -21,6 +22,7 @@ Sparse-Attention/
 ### (At this point)
 ```bash
 python Dense__ateention.py
+python BigBird.py
 ```
 
 
@@ -36,9 +38,28 @@ python Dense__ateention.py
     ``` 
 </details>
 
+### Checkpoint 2
+<details>
+<summary> <b> Bug2: </b> USed numpy instead of torch </summary>
+
+    instead of using torcch to build tensor i used numpy
+</details>
+
+<details>
+<summary> <b> Bug3: </b> Addes all index instead of or </summary>
+
+    during calculating BigBird. I added M1+M2+M3 instead of M1 == 0 | M2 == 0 | M3 == 0
+</details>
+
 ## Checkpoint completed
 <details>
 <summary> <b> Checkpoint1: </b> </summary>
  
     Scaled Dot Product (Dense_ateention.py)
+</details>
+
+<details>
+<summary> <b> Checkpoint2: </b> </summary>
+ 
+    BigBird sparse pattern (BigBird.py)
 </details>
