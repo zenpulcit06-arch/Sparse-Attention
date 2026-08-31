@@ -42,7 +42,7 @@ First intialise a DenseAttention class With **Querry (Q), Key (K) and value (V)*
 Then I use the **scaled dot product attention** 
 $$ \[\text{Attention}(Q, K, V) = \text{Softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V\] $$
 
-    ```python 
+```python 
 
     def attention(self,M):
 
@@ -54,7 +54,7 @@ $$ \[\text{Attention}(Q, K, V) = \text{Softmax}\left(\frac{QK^T}{\sqrt{d_k}}\rig
 
         return torch.matmul(softmax,self.V)
     
-    ```
+```
 
 ### Checkpoint 2
 
