@@ -33,9 +33,9 @@ python BigBird.py
 
     durin tensor converion some are onverting to int while other are cinverting to float
     <b> Fix </b>
-    ```python 
+```python 
         dtype = torch.float32 
-    ``` 
+``` 
 </details>
 
 ### Checkpoint 2

@@ -51,7 +51,7 @@ def BlockSparse(n,block_size,bloc_rad,g_index,r,seed):
     M = torch.full((n_block,n_block),float("-inf"),dtype= torch.float32)
     M[allowed] = 0.0
 
-    return expand_mask(M, block_size)
+    return M
 
 def expand_mask(M,block_size):
     M = M.repeat_interleave(block_size, dim=0)
