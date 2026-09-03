@@ -16,6 +16,13 @@ https://youtu.be/eMlx5fFNoYc?si=tdTtkdiyvOygawi0
 https://youtu.be/XCcaAQujhXY?si=HRBC6EVan3Nv9ORW
 </details>
 
+
+### Checkpoint 3
+<details>
+<summary> hugging face </summary>
+https://huggingface.co/docs/transformers/en/model_doc/big_bird
+<details>
+
 ### In general
 <details>
 <summary> AI Used for Help </summary> 
@@ -114,6 +121,9 @@ Then i have ored result from each
     allowed = (M1 == 0) | (M2 == 0) | (M3 == 0)
 ```
 
+### Checkpoint 3
+ No code here since motive of this to check the output of the **Dense Attention** but strategy is simple create a candidate function to calculate manualy the effecive value then match it using the function
+
 ## Test 
 
 Test wirttern per check point
@@ -142,7 +152,7 @@ tensor([[10.0000, 20.0000],
 [23.3952, 33.3952]])
 ```
 
-### Checkpoint1
+### Checkpoint2
 
 tested along matrix and checked by seeing 
  ```python
@@ -200,4 +210,70 @@ tensor([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
         [0., 0., -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf],
         [0., 0., -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf],
         [0., 0., -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf]])
+```
+
+
+### Checkpoint3
+
+```text
+test pass
+test pass
+test pass
+test pass
+test pass
+Window Mask Test
+==================================================
+For not Causual
+Test 0 Pass For not causual window mask
+test pass
+==================================================
+For Causual
+Test 0 Pass For causual window mask
+test pass
+==================================================
+==================================================
+For not Causual
+Test 1 Pass For not causual window mask
+test pass
+==================================================
+For Causual
+Test 1 Pass For causual window mask
+test pass
+==================================================
+==================================================
+For not Causual
+Test 2 Pass For not causual window mask
+test pass
+==================================================
+For Causual
+Test 2 Pass For causual window mask
+test pass
+==================================================
+==================================================
+For not Causual
+Test 3 Pass For not causual window mask
+test pass
+==================================================
+For Causual
+Test 3 Pass For causual window mask
+test pass
+==================================================
+==================================================
+For not Causual
+Test 4 Pass For not causual window mask
+test pass
+==================================================
+For Causual
+Test 4 Pass For causual window mask
+test pass
+==================================================
+==================================================
+For not Causual
+Test 6 Pass For not causual window mask
+test pass
+==================================================
+For Causual
+Test 6 Pass For causual window mask
+test pass
+==================================================
 ```

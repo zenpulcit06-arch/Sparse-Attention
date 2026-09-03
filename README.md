@@ -9,6 +9,7 @@ This project aims to build Sparse-Attention from scratch While learning it and p
 Sparse-Attention/
 └── Dense_Ateention.py (Scaled Dot Product)
 |__ BigBird.py (Sparse pattern)
+|_ harness.py
 ```
 
 
@@ -25,6 +26,11 @@ python Dense__ateention.py
 python BigBird.py
 ```
 
+### for harness
+```bash
+python harness.py
+```
+
 
 ## Bug Encounters
 ### Checkpoint 1
@@ -32,7 +38,7 @@ python BigBird.py
 <summary> <b> Bug 1: </b> Invalid data type </summary>
 
     durin tensor converion some are onverting to int while other are cinverting to float
-    <b> Fix </b>
+     **Fix** 
 ```python 
         dtype = torch.float32 
 ``` 
@@ -50,6 +56,18 @@ python BigBird.py
 
     during calculating BigBird. I added M1+M2+M3 instead of M1 == 0 | M2 == 0 | M3 == 0
 </details>
+
+### Checkpoint3
+<detail>
+<summary> <b> Bug4: Made a wrong Window harness </b> </summary>
+    I build a wrong window harness which only measure the dimensions not the values
+</detail>
+
+<detail>
+<summary> <b> Bug5: Wrong input to candidate function </b> </summary>
+    Initaly my candidate tooks wrong function as input
+</detail>
+
 
 ## Checkpoint completed
 <details>
