@@ -16,7 +16,7 @@ Sparse-Attention/
 ## Requirments
 
 ```bash
-    pip install torch numpy matplotlib pytest
+    pip install torch numpy matplotlib
 ```
 
 ## How to run 
@@ -58,15 +58,17 @@ python harness.py
 </details>
 
 ### Checkpoint3
-<detail>
+<details>
 <summary> <b> Bug4: </b> Made a wrong Window harness  </summary>
-    I build a wrong window harness which only measure the dimensions not the values
-</detail>
 
-<detail>
+    I build a wrong window harness which only measure the dimensions not the values
+</details>
+
+<details>
 <summary> <b> Bug5: </b> Wrong input to candidate function  </summary>
+
     Initaly my candidate tooks wrong function as input
-</detail>
+</details>
 
 
 ## Checkpoint completed
