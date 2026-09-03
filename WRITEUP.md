@@ -21,7 +21,7 @@ https://youtu.be/XCcaAQujhXY?si=HRBC6EVan3Nv9ORW
 <details>
 <summary> hugging face </summary>
 https://huggingface.co/docs/transformers/en/model_doc/big_bird
-<details>
+</details>
 
 ### In general
 <details>

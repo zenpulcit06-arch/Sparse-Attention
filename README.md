@@ -59,12 +59,12 @@ python harness.py
 
 ### Checkpoint3
 <detail>
-<summary> <b> Bug4: Made a wrong Window harness </b> </summary>
+<summary> <b> Bug4: </b> Made a wrong Window harness  </summary>
     I build a wrong window harness which only measure the dimensions not the values
 </detail>
 
 <detail>
-<summary> <b> Bug5: Wrong input to candidate function </b> </summary>
+<summary> <b> Bug5: </b> Wrong input to candidate function  </summary>
     Initaly my candidate tooks wrong function as input
 </detail>
 
@@ -80,4 +80,10 @@ python harness.py
 <summary> <b> Checkpoint2: </b> </summary>
  
     BigBird sparse pattern (BigBird.py)
+</details>
+
+<details>
+<summary> <b> Checkpoint3: </b> </summary>
+ 
+    Added the harness (harness.py)
 </details>
